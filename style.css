@@ -1,0 +1,124 @@
+/* FontStyle */
+@font-face {
+    font-family: 'LemonMilkBold';
+    src: url(/assets/font/LemonMilkBold.otf);
+}
+
+@font-face {
+    font-family: 'LemonMilkMedium';
+    src: url(/assets/font/LemonMilkMedium.otf);
+}
+
+@font-face {
+    font-family: 'LemonMilkLight';
+    src: url(/assets/font/LemonMilkLight.otf);
+}
+
+@font-face {
+    font-family: 'EncelSemiBold';
+    src: url(/assets/font/EncelSemibold);
+}
+
+@font-face {
+    font-family: 'EncelRegular';
+    src: url(/assets/font/EncelRegular.otf);
+}
+
+.my-line {
+    border-bottom: 2px solid #000;
+}
+
+.line-fot {
+    border-bottom: 1px solid #fff;
+}
+
+.lemon-b {
+    font-family: 'LemonMilkBold';
+}
+
+.lemon-m {
+    font-family: 'LemonMilkMedium';
+}
+
+.lemon-l {
+    font-family: 'LemonMilkLight';
+}
+
+.encel-m {
+    font-family: 'EncelSemiBold';
+}
+
+.encel-s {
+    font-family: 'EncelRegular';
+}
+/* FontStyle End */
+
+/* LinkStyle */
+.dropdown-item:hover {
+    font-weight: 600;
+    color: #000;
+    background: none;
+}
+
+.link-active {
+    font-weight: 600;
+    color: #000;
+}
+
+.link-active:hover {
+    font-weight: 600;
+    color: #000;
+}
+
+.my-link:hover {
+    font-weight: 500;
+    color: #000;
+}
+
+.link-fot:hover {
+    font-weight: 500;
+    color: #a1a1a1;
+}
+
+.link-page {
+    font-weight: 500;
+    color: #000;
+}
+
+.link-page:hover {
+    font-weight: 600;
+    color: #a1a1a1;
+}
+/* LinkStyle End */
+
+/* Button */
+.my-btn-1 {
+    border: 2px solid #2f2529;
+    background-color: none;
+    color: #2f2529;
+}
+
+.my-btn-1:hover {
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+}
+
+.my-btn-2 {
+    font-size: 13px;
+    border: 2px solid #2f2529;
+    background-color: none;
+    color: #2f2529;
+}
+
+.my-btn-2:hover {
+    font-size: 13px;
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+}
+/* Button End */
+
+.my-card {
+    border: none;
+}
